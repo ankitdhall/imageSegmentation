@@ -12,6 +12,8 @@ Finally, we combine the above results to get a clearer segmentation of the image
 
 The individual texture quantization and color segmentation can be used to improve other building blocks and applications.
 
+Currently, adding a feature to select color threshold adaptively
+
 Usage:
 main.cpp - contains the initial calls and the final merge function
 color.cpp - performs segmentation based solely on color information of the image
