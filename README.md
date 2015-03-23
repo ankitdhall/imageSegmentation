@@ -16,7 +16,11 @@ Currently, adding a feature to select color threshold adaptively
 
 Usage:
 main.cpp - contains the initial calls and the final merge function
+
 color.cpp - performs segmentation based solely on color information of the image
+
 texture.cpp - performs segmentation based solely on texture information of the image
+
 histtogram.cpp - genetares the histogram of 'Hue' of the image in HSV color space
+
 header.h - contains the function prototypes
