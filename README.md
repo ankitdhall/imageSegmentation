@@ -1,8 +1,9 @@
-#Image Segmentation using Texture and Color
+# Image Segmentation using Texture and Color
 
-Dependencies: OpenCV
+## Dependencies
+* OpenCV for C++
 
-#The Algorithm
+## The Algorithm
 The proposal deals with finding objects of interest in an image. Since, an image may have many objects in different poses; classifiers on the image can’t be run directly. We will first segment the image and extract individual objects. This will help us provide a localized region which can be used as input to the classifier and eventually to identify the object of interest. Based on the low-level features defined, we can narrow down on the possible classifiers to be used.
 
 Most of the available libraries provide functions to perform automatic segmentation based only on watershed, graph cuts and similar methods. These methods don’t take into account the texture properties of the image. For this week, we have analyzed two simple but very critical features of an image: texture and color. We have used these features to implement our own image segmentation algorithm.
@@ -15,13 +16,13 @@ Finally, we combine the above results to get a clearer segmentation of the image
 
 The individual texture quantization and color segmentation can be used to improve other building blocks and applications.
 
-#Files
-main.cpp - contains the initial calls and the final merge function
+## Files and Usage
+* main.cpp - contains the initial calls and the final merge function
 
-color.cpp - performs segmentation based solely on color information of the image
+* color.cpp - performs segmentation based solely on color information of the image
 
-texture.cpp - performs segmentation based solely on texture information of the image
+* texture.cpp - performs segmentation based solely on texture information of the image
 
-histtogram.cpp - genetares the histogram of 'Hue' of the image in HSV color space
+* histogram.cpp - genetares the histogram of 'Hue' of the image in HSV color space
 
-header.h - contains the function prototypes
+* header.h - contains the function prototypes
