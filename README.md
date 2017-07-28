@@ -3,6 +3,19 @@
 2. [Algorithm](#algorithm)
 3. [Files and Usage](#files-and-usage)  
 
+
+### Citing `imageSegmentation`
+Please cite our work if `Image Segmentation using Texture and Color` and our approach helps your research.  
+
+```
+@Misc{imageSegmentation,
+  author = {{Dhall*}, A. and {Chandak*} Y.}
+  title = "{Image Segmentation using Texture and Color}",
+  howpublished = {\url{https://github.com/ankitdhall/imageSegmentation}},
+  year = {2015}
+}
+```  
+
 ## Dependencies
 * OpenCV for C++
 
