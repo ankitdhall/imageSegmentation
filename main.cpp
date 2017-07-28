@@ -1,3 +1,7 @@
+/*
+Authors:
+Ankit Dhall and Yash Chandak
+*/
 /*TODO
     *generate common convolution function for all kernels
     *texture map generate can be sped up with integral image concept
